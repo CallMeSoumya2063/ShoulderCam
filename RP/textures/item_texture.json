@@ -1,0 +1,11 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "activator": {
+            "textures": "textures/items/activator"
+        },
+        "reset": {
+           "textures": "textures/items/reset"
+           }
+    }
+}
