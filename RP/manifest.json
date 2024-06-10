@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"callmesoumya"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.0"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Shoulder Surfing",
+		"description": "Please enable \"Experimental Cameras\" and \"Holiday Creator Features\" toggles in Experiments tab for this add-on to work properly!\nAn addon created by @callmesoumya that tries to recreate the famous shoulder surfing mod in Minecraft Bedrock Edition.",
+		"min_engine_version": [
+			1,
+			20,
+			0
+		],
+		"uuid": "69b5333d-940d-4583-8c4f-d9b0001734bd",
+		"version": [
+			1,
+			0,
+			2
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "12fbd8ea-5315-41de-b9dd-05a286966d56",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
