@@ -1,0 +1,41 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "better3rd:reset",
+            "category": "Equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "reset"
+            },
+            "minecraft:cooldown": {
+			"category": "cam-utils",
+			"duration": 0.5
+			},
+            "minecraft:max_stack_size": 1,
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "reset_perspective"
+                }
+            }
+        },
+        "events": {
+            "reset_perspective": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "tag @s remove better3rd",
+                                "replaceitem entity @s slot.weapon.mainhand 0 better3rd:activator",
+								"tag @s add camera_clear",
+								"title @s actionbar §l§cCamera has been reset!"
+                            ],
+								"target": "holder"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
