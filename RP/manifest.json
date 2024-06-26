@@ -3,15 +3,7 @@
 	"metadata": {
 		"authors": [
 			"callmesoumya"
-		],
-		"generated_with": {
-			"bridge": [
-				"2.6.0"
-			],
-			"dash": [
-				"0.10.8"
-			]
-		}
+		]
 	},
 	"header": {
 		"name": "ShoulderCam Add-on",
