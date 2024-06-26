@@ -2,12 +2,12 @@
 	"format_version": 2,
 	"metadata": {
 		"authors": [
-			"callmesoumya"
+			"CallMeSoumya2063"
 		]
 	},
 	"header": {
 		"name": "ShoulderCam Add-on",
-		"description": "Please enable \"Holiday Creator Features\" toggle in Experiments tab for this add-on to work properly!\nAn addon created by @callmesoumya that tries to recreate the famous shoulder surfing mod in Minecraft Bedrock Edition.",
+		"description": "Please enable \"Holiday Creator Features\" toggle in Experiments tab for this add-on to work properly!\nAn addon created by CallMeSoumya that tries to recreate the famous shoulder surfing mod in Minecraft Bedrock Edition.",
 		"min_engine_version": [
 			1,
 			20,
