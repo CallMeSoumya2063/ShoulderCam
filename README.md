@@ -7,7 +7,9 @@ Legacy version for Minecraft versions 1.20.0 to 1.21.2.
 Import the addon into Minecraft and activate it in a world. Make sure to turn on the following *experimental toggles*:
 - **Holiday Creator Features** : For 1.20.0 to 1.21.2
 - **Experimental Cameras** : For 1.20.0 to 1.20.30, unnecessary in above versions
+
 To activate the camera view, take the "ShoulderCam Activator" item from Equipment tab in creative inventory and right click (or long press on screen for touch controls) while holding the item.
+
 To deactivate the camera view once it's activated, right click (or long press on screen for touch controls) while holding the "Reset Camera" item.
 
 ### Known issues & fixes:
