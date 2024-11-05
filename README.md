@@ -1,2 +1,2 @@
 # ShoulderCam
-A Minecraft Bedrock edition addon that attempts to recreate the famous Shoulder Surfing mod in BE.
+Enhance your 3rd person view with a Shoulder-view Camera with this addon for Minecraft Bedrock Edition.
