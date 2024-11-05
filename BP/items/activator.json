@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:item": {
         "description": {
-            "identifier": "better3rd:activator",
+            "identifier": "shouldercam:activator",
             "category": "Equipment"
         },
         "components": {
@@ -10,7 +10,7 @@
                 "texture": "activator"
             },
             "minecraft:cooldown": {
-			"category": "cam-utils",
+			"category": "shouldercam",
 			"duration": 0.5
 			},
             "minecraft:max_stack_size": 1,
@@ -26,8 +26,8 @@
                     {
                         "run_command": {
                             "command": [
-                                "tag @s add better3rd",
-                                "replaceitem entity @s slot.weapon.mainhand 0 better3rd:reset",
+                                "tag @s add shouldercam",
+                                "replaceitem entity @s slot.weapon.mainhand 0 shouldercam:reset",
                                 "title @s actionbar §l§9Camera has been activated!"
                             ],
                             "target": "holder"
