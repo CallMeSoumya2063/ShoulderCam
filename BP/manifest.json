@@ -1,34 +1,22 @@
 {
-	"format_version": 2,
-	"metadata": {
-		"authors": [
-			"CallMeSoumya2063"
-		]
-	},
-	"header": {
-		"name": "ShoulderCam Add-on",
-		"description": "Please enable \"Holiday Creator Features\" toggle in Experiments tab for this add-on to work properly!\nAn addon created by @callmesoumya that tries to recreate the famous shoulder surfing mod in Minecraft Bedrock Edition.",
-		"min_engine_version": [
-			1,
-			20,
-			0
-		],
-		"uuid": "6479273b-fd63-4870-9904-d4f0272e8e41",
-		"version": [
-			1,
-			0,
-			2
-		]
-	},
-	"modules": [
-		{
-			"type": "data",
-			"uuid": "4053c8ea-78d3-4dd2-ae90-a011dca22dad",
-			"version": [
-				1,
-				0,
-				0
-			]
-		}
-	]
+    "format_version": 2,
+    "metadata": {
+        "authors": ["CallMeSoumya"]
+    },
+    "header": {
+		"name": "ShoulderCam Addon : LEGACY VERSION [Behaviour Pack]",
+		"description": "Please enable \"Holiday Creator Features\" and \"Experimental Cameras\" experimental toggles.\nEnhance your 3rd person view with a Shoulder-view Camera! For versions 1.20.0 to 1.21.2.",
+        "uuid": "f670339f-a66f-4bc3-8c9c-e12e083264c5",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "Enhance your 3rd person view with a Shoulder-view Camera!\nUpdated to use Script API for 1.21.20+, no experimental toggle needed.",
+            "type": "data",
+            "uuid": "f96cbd65-85b5-45da-b31b-df17d6024e5c",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [{"version":[1,0,0],"uuid":"cd9c0c90-3b05-4030-ada1-e47bd053715c"}]
 }
